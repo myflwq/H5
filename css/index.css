@@ -1,0 +1,241 @@
+html,body{
+			font-size: 100px;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+		.swiper-container{
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+		.swiper-slide{
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			position: relative;
+		}
+		/*第一页*/
+		.slide1{
+			background-color: #0d2b4c;
+		}
+		.w1-1{
+			position:absolute;
+			top:1.06rem;
+			left:0;
+			width: 100%;
+			height: 1.69rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w1-1.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.w1-2{
+			position:absolute;
+			bottom:2.6rem;
+			left:0;
+			width:100%;
+			height: 2.36rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w1-2.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		/*第二页*/
+		.slide2{
+			background-color: #fff;
+		}
+		.w2-1{
+			position:absolute;
+			top:1.06rem;
+			left:0;
+			width: 100%;
+			height: 1.69rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w2-1.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.w2-2{
+			position: absolute;
+			top:3.79rem;
+			left:0;
+			width: 100%;
+			height: 3.7rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w2-2.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.w2-3{
+			position: absolute;
+			bottom:0.75rem;
+			left:0;
+			width: 100%;
+			height: 1.1rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w2-3.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+
+		/*第三页*/
+		.slide3{
+			background-color: #0d2b4c;
+		}
+		.w3-1{
+			position:absolute;
+			bottom: 1.64rem;
+			left:0;
+			width: 100%;
+			height: 0.95rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w3-1.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.w3-2{
+			position: absolute;
+			bottom:0.34rem;
+			left:0;
+			width: 100%;
+			height:1.3rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w3-2.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.w3-3{
+			position: absolute;
+			z-index: 2;
+			top: 2.27rem;
+			left:0;
+			width: 100%;
+			height: 2.12rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w3-3.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.w3-4{
+			position: absolute;
+			top:0;
+			left: 0;
+			width: 100%;
+			height: 7.5rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w3-4.jpg);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		/*第四页*/
+		.slide4{
+			background-color: #fff;
+		}
+		.w4-1{
+			position: absolute;
+			top:5.13rem;
+			left: 0;
+			width: 100%;
+			height: 1.2rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w4-1.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.w4-2{
+			position:absolute;
+			top:6.69rem;
+			left: 0;
+			width: 100%;
+			height: 1rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w4-2.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.w4-3{
+			position:absolute;
+			top:7.79rem;
+			left: 0;
+			width: 100%;
+			height: 0.65rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w4-3.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.w4-4{
+			position: absolute;
+			top:8.71rem;
+			left:0;
+			width: 100%;
+			height: 0.9rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w4-4.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.w4-5{
+			position: absolute;
+			top:0;
+			left:0;
+			width: 2.19rem;
+			height: 4.78rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w4-5.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.w4-6{
+			position: absolute;
+			top:0;
+			left:2.19rem;
+			width: 1.99rem;
+			height: 4.78rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w4-6.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.w4-7{
+			position: absolute;
+			top:0;
+			right:0;
+			width: 2.22rem;
+			height: 4.78rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w4-7.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		/*第五页*/
+		.slide5{
+			background-color: #fff;
+		}
+		.w5-1{
+			position: absolute;
+			top:0;
+			left:0;
+			width: 100%;
+			height: 4.75rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w5-1.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.w5-2{
+			position: absolute;
+			top:5.13rem;
+			right:0;
+			width: 100%;
+			height: 1.2rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w5-2.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.w5-3{
+			position: absolute;
+			top:6.69rem;
+			right:0;
+			width: 100%;
+			height: 0.99rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w5-3.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.w5-4{
+			position: absolute;
+			top:7.79rem;
+			right:0;
+			width: 100%;
+			height: 1.5rem;
+			background-image: url(http://obqlla9is.bkt.clouddn.com/w5-4.png);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
