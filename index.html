@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/swiper-3.3.1.min.css">
 	<link rel="stylesheet" href="css/index.css">
-	<title>香蕉有约</title>
+	<title>微场景</title>
 	<script type="text/javascript">
     !function(a){function b(){var b=a.document,c=b.documentElement,d=c.getBoundingClientRect().width;document.documentElement.style.fontSize=100*(d/640)+"px"}window.addEventListener("DOMContentLoaded",function(){b()},!1),window.addEventListener("resize",function(){b()}),b()}(window);
     </script>
@@ -17,22 +17,22 @@
 		<div class="swiper-wrapper">
 			<div class="swiper-slide slide1">
 				<div class="w1-1 ani"  swiper-animate-effect="fadeInUp" swiper-animate-duration="0.4s" swiper-animate-delay="0s">
-					
+
 				</div>
 				<div class="w1-2 ani" swiper-animate-effect="flipInY" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
-					
+
 				</div>
-				
+
 			</div>
 			<div class="swiper-slide slide2">
 				<div class="w2-1 ani"  swiper-animate-effect="fadeInDown" swiper-animate-duration="0.3s" swiper-animate-delay="0.3s">
-					
+
 				</div>
 				<div class="w2-2 ani"  swiper-animate-effect="zoomIn" swiper-animate-duration="0.4s" swiper-animate-delay="0s">
-					
+
 				</div>
 				<div class="w2-3 ani"  swiper-animate-effect="fadeInUp" swiper-animate-duration="0.4s" swiper-animate-delay="0.3s">
-					
+
 				</div>
 			</div>
 			<div class="swiper-slide slide3">
@@ -58,11 +58,11 @@
 				<div class="w4-6 ani" swiper-animate-effect="slideInDown" swiper-animate-duration="0.3s" swiper-animate-delay="0.6s"></div>
 				<div class="w4-7 ani" swiper-animate-effect="slideInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
 				</div>
-			</div> 
+			</div>
 			<div class="swiper-slide slide5">
 				<div class="w5-1 ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
 				</div>
-				<div class="w5-2 ani" swiper-animate-effect="swing" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">	
+				<div class="w5-2 ani" swiper-animate-effect="swing" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
 				</div>
 				<div class="w5-3 ani" swiper-animate-effect="rotateInUpRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.9s"></div>
 				<div class="w5-4 ani" swiper-animate-effect="rotateInUpLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.9s">
@@ -85,12 +85,12 @@
     		pagination: '.swiper-pagination',
     		paginationClickable :true,
     		onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
-    			swiperAnimateCache(swiper); //隐藏动画元素 
+    			swiperAnimateCache(swiper); //隐藏动画元素
     			swiperAnimate(swiper); //初始化完成开始动画
-  			}, 
-  			onSlideChangeEnd: function(swiper){ 
+  			},
+  			onSlideChangeEnd: function(swiper){
     			swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
-  			} 
+  			}
     	})
 	</script>
 </body>
